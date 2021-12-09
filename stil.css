@@ -1,0 +1,123 @@
+* {box-sizing: border-box;}
+p {
+    font-size: 15px;
+    color: darkslategrey;
+}
+h2 {
+    color:darkslategray;
+    
+}
+h3 {
+    color:darkslategray;
+}
+h4 {
+	color: darkslategrey;
+	margin: 10px;
+	font-family: 'Zen Maru Gothic', sans-serif;
+	font-size: 30px;
+	text-align: left;
+	padding: 20px 20px 10px 0px;
+}
+nav {
+    transition: 0.4s;
+    border-bottom: 3px solid seagreen;
+}
+li {
+    font-size: 15px;;
+}
+.poze_oferte {
+    border-radius: 16px;
+}
+.logo {
+    width: 50px;
+    float: left;
+}
+
+.sectiune_about {
+    background-color: whitesmoke;
+}
+
+blockquote {
+    padding: 20px;
+    border-color: darkslategrey;
+    border-radius: 4px;
+    background-color: #d1e7dd;
+    border-left: 2px solid green;
+    margin: 0px 40px;
+    margin-bottom: 60px;
+}
+
+hr.solid {
+    border-top: 3px solid darkseagreen;
+    color: darkseagreen;
+}
+.imagini {
+    transition: all .20s linear;
+}
+.imagini:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.sectiune_rezumat {
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("imagini/carusel5.jpg");
+    background-attachment: fixed;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.continut_rezumat {
+    background-color: #d1e7dd;
+}
+.programe {
+	list-style-type: none;
+}
+.sectiune_abonamente {
+    background-color: #d1e7dd;
+}
+.card {
+    border: 0px;
+}
+.card-header {
+    background-color: whitesmoke;
+    border-bottom: whitesmoke;
+}
+.card-footer {
+    background-color: whitesmoke;
+    border-top: whitesmoke;
+}
+.sectiune_countdown {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("imagini/carusel0.jpg");
+    background-attachment: fixed;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.continut_countdown {
+    margin: 50px;
+    background-color: white;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+.continut_countdown p {
+    font-weight: bold;
+    color: black;
+}
+
+.sectiune_oferte {
+    background-color: whitesmoke;
+}
+.countdown {
+    font-size: 30px;
+    text-align: center;
+}
