@@ -61,7 +61,7 @@ hr.solid {
 
 .sectiune_rezumat {
     width: 100%;
-    height: 800px;
+    height: 900px;
     background-position: center;
     background-size: cover;
     background-image: url("imagini/carusel5.jpg");
@@ -93,7 +93,7 @@ hr.solid {
 }
 .sectiune_countdown {
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-position: center;
     background-size: cover;
     background-image: url("imagini/carusel0.jpg");
